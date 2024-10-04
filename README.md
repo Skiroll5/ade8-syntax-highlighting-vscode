@@ -12,7 +12,7 @@ This extension provides syntax highlighting for the a8a assembly language. Desig
 
 ## Installation
 
-Just upload the .vsix file to VS Code extensions:
+Just upload the `a8a-1.0.0.vsix` file to VS Code extensions:
 
  ![Upload VSIX](Tutorial/vsix-upload.png)
 
