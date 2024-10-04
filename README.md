@@ -18,3 +18,4 @@ Just upload the .vsix file to VS Code extensions:
 
 > **_NOTE:_**   If VS Code doesn't automatically recognize the language by the file extension select it manually from the bottom bar.
 
+run `vsce package` to package the extension after an edit.
