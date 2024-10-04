@@ -21,13 +21,13 @@
     "keywords": {
       "patterns": [
         {
-          "name": "keywords.control.a8a",
+          "name": "keyword.control.a8a",
 		  "match": "(?i)\\b(NEG|NOT|SETv|LDv|ANDv|ORv|ADDv|SUBv|CMPv|LD|ST|AND|OR|ADD|SUB|CMP|JMP|JZ|JN|JO|JC|JE|JLs|JLu|LDi|STi|ANDi|ORi|ADDi|SUBi|CMPi|PUSH|POP|CALL|RET|LDs|STs|ANDs|ORs|ADDs|SUBs|CMPs|LA|LAs|RES|REL|LDsi|STsi|ANDsi|ORsi|ADDsi|SUBsi|CMPsi)\\b"
         }
       ]
     },
 	"strings": {
-		"name": "strings.quoted.single.a8a",
+		"name": "string.quoted.single.a8a",
 		"begin": "'",
 		"end": "'",
 		"patterns": [

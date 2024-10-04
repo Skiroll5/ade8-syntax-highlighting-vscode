@@ -2,6 +2,8 @@
   "name": "a8a",
   "displayName": "ADE8 Language Support",
   "description": "Syntax highlighting for ADE8 language.",
+  "publisher": "Kyrollos Emad",
+  "icon": "ade8.png",
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.94.0"
@@ -41,6 +43,20 @@
       "type": "object",
       "title": "ADE8 Language",
       "properties": {}
+    },
+    "configurationDefaults": {
+      "editor.tokenColorCustomizations": {
+        "[*]": {
+          "textMateRules": [
+            {
+              "scope": "keyword.control.a8a",
+              "settings": {
+                "foreground": "#498fcc"
+              }
+            }
+          ]
+        }
+      }
     }
   },
   "repository": {

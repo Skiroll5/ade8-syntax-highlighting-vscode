@@ -16,13 +16,13 @@
         }
       },
       {
-        "scope": "keywords.control.a8a",
+        "scope": "keyword.control.a8a",
         "settings": {
           "foreground": "#498fcc"
         }
       },
       {
-        "scope": "strings.quoted.single.a8a",
+        "scope": "string.quoted.single.a8a",
         "settings": {
           "foreground": "#cc9478"
         }
