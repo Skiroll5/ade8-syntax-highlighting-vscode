@@ -1,7 +1,7 @@
 {
   "name": "a8a",
   "displayName": "ADE8 Language Support",
-  "description": "Syntax highlighting, auto-completion, and color customization for ADE8 language.",
+  "description": "Syntax highlighting for ADE8 language.",
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.94.0"
