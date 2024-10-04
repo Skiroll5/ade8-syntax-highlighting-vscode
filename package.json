@@ -10,27 +10,41 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "a8a",
-      "aliases": ["ADE8", "a8a"],
-      "extensions": [".a8a"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "a8a",
-      "scopeName": "source.ade8",
-      "path": "./syntaxes/a8a.tmLanguage.json"
-    }],
-    "themes": [{
+    "languages": [
+      {
+        "id": "a8a",
+        "aliases": [
+          "ADE8",
+          "a8a"
+        ],
+        "extensions": [
+          ".a8a"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "a8a",
+        "scopeName": "source.ade8",
+        "path": "./syntaxes/a8a.tmLanguage.json"
+      }
+    ],
+    "themes": [
+      {
         "label": "ADE8 Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/ade8-color-theme.json"
-    }],
+      }
+    ],
     "configuration": {
       "type": "object",
       "title": "ADE8 Language",
-      "properties": {
-      }
+      "properties": {}
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Skiroll5/ade8-syntax-highlighting-vscode"
   }
 }
