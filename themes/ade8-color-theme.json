@@ -1,0 +1,38 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "name": "ADE8",
+    "colors": {},
+    "tokenColors": [
+      {
+        "scope": "comment.line.a8a",
+        "settings": {
+          "foreground": "#008000"
+        }
+      },
+      {
+        "scope": "constant.numeric.a8a",
+        "settings": {
+          "foreground": "#ef596e"
+        }
+      },
+      {
+        "scope": "keywords.control.a8a",
+        "settings": {
+          "foreground": "#498fcc"
+        }
+      },
+      {
+        "scope": "strings.quoted.single.a8a",
+        "settings": {
+          "foreground": "#cc9478"
+        }
+      },
+      {
+        "scope": "punctuation.separator.delimiter.a8a",
+        "settings": {
+          "foreground": "#cc9478"
+        }
+      }
+    ]
+  }
+  

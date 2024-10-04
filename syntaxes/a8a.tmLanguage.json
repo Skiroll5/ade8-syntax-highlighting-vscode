@@ -1,0 +1,57 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "a8a",
+  "scopeName": "source.ade8",
+  "fileTypes": ["a8a"],
+  "patterns": [
+    {
+      "include": "#keywords"
+    },
+    {
+      "include": "#strings"
+    },
+    {
+      "include": "#comments"
+    },
+    {
+      "include": "#numbers"
+    }
+  ],
+  "repository": {
+    "keywords": {
+      "patterns": [
+        {
+          "name": "keywords.control.a8a",
+		  "match": "(?i)\\b(NEG|NOT|SETv|LDv|ANDv|ORv|ADDv|SUBv|CMPv|LD|ST|AND|OR|ADD|SUB|CMP|JMP|JZ|JN|JO|JC|JE|JLs|JLu|LDi|STi|ANDi|ORi|ADDi|SUBi|CMPi|PUSH|POP|CALL|RET|LDs|STs|ANDs|ORs|ADDs|SUBs|CMPs|LA|LAs|RES|REL|LDsi|STsi|ANDsi|ORsi|ADDsi|SUBsi|CMPsi)\\b"
+        }
+      ]
+    },
+	"strings": {
+		"name": "strings.quoted.single.a8a",
+		"begin": "'",
+		"end": "'",
+		"patterns": [
+			{
+				"name": "constant.character.escape.a8a",
+				"match": "\\\\."
+			}
+		]
+	},
+    "comments": {
+      "patterns": [
+        {
+          "name": "comment.line.a8a",
+          "match": ";.*$"
+        }
+      ]
+    },
+    "numbers": {
+      "patterns": [
+        {
+          "name": "constant.numeric.a8a",
+          "match": "\\b[0-9A-Fa-f]+h\\b|\\b[0-9]+\\b"
+        }
+      ]
+    }
+  }
+}

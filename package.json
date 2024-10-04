@@ -1,0 +1,36 @@
+{
+  "name": "a8a",
+  "displayName": "ADE8 Language Support",
+  "description": "Syntax highlighting, auto-completion, and color customization for ADE8 language.",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "a8a",
+      "aliases": ["ADE8", "a8a"],
+      "extensions": [".a8a"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "a8a",
+      "scopeName": "source.ade8",
+      "path": "./syntaxes/a8a.tmLanguage.json"
+    }],
+    "themes": [{
+        "label": "ADE8 Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ade8-color-theme.json"
+    }],
+    "configuration": {
+      "type": "object",
+      "title": "ADE8 Language",
+      "properties": {
+      }
+    }
+  }
+}
