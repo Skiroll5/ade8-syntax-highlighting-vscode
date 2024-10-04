@@ -1,6 +1,6 @@
 # ADE8 Language Support for Visual Studio Code
 
-![ADE8 Logo](https://imagelab.ing.unimore.it/ade8/wp-content/uploads/2016/10/ade8.png)
+![ADE8 Logo](ade8.png)
 
 ## Description
 
